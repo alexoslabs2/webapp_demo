@@ -74,9 +74,9 @@ tee config.php << EOF
 ini_set('display_errors',1);
 error_reporting(-1);
 define('DB_HOST', 'localhost');
-define('DB_USER', 'ecomme');
-define('DB_PASSWORD', 'ecomme_user');
-define('DB_DATABASE', 'password');
+define('DB_USER', 'ecomme_user');
+define('DB_PASSWORD', 'Secret');
+define('DB_DATABASE', 'ecomme');
 ?>
 EOF
 mysql -u root -p$DB_PASSWORD ecomme < dump.sql
