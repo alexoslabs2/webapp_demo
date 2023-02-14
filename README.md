@@ -3,6 +3,6 @@ Script to install a simple php application to tests
 
 The script will:
 * Install the LAMP stack
-* Harden the MySQL
-* Harden the Apache and the PHP
+* MySQL Hardening
+* Apache and the PHP Hardening
 * Install the Ecomme Application
